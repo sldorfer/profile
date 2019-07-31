@@ -1,0 +1,116 @@
+/*@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px)
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+h1, h2 {
+/*  font-family: 'Red Hat Display', sans-serif;*/
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: 700;
+  color : #F24333;
+
+}
+
+a {
+  text-decoration: none;
+  color:black
+}
+
+a:hover {
+  color: black;
+}
+
+.img-circle {
+  width: 300px;
+  height: 300px;
+/*  border-radius: 50%;*/
+}
+
+.img-circle:hover {
+  transform: rotate(180deg);
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.green {
+  background-color: #CFD7C7;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+  border-radius: 3px;
+  padding: 20px;
+  width:670px;
+  height:100vh;
+  }
+
+  @media (max-width:720px) {
+    .green {
+      width:600px;
+    }
+  }
+
+
+@media (max-width: 540px) {
+  .green {
+    width: 300px;
+  }
+}
+
+
+.card {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+  @media (max-width:720px) {
+    .card {
+      width:600px;
+    }
+  }
+
+
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
+
+
+.btn {
+  background-color: white;
+  /*color: #0B2027;*/
+  border-radius: 3px;
+  padding:8px 10px;
+}
+
+.btn:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline-block;
+  font-size: 50px;
+}
+
+.margin-bottom {
+  margin-bottom: 150px;
+}
+
+
